@@ -1,0 +1,191 @@
+/* app.css */
+
+/* 🌍 Global Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* 🧭 Navigation Bar */
+header {
+  position: fixed; /* Always stays at the top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Ensures it's above all content */
+  background-color: #fff; /* Matches hero background */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); Subtle shadow */
+  padding: 30px 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}ß
+
+nav .logo img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 25px;
+  font-size: 18px;
+  font-weight: 100;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #6C63FF;
+  font-weight: 900;
+}
+
+/* 📱 Responsive Navigation */
+@media (max-width: 768px) {
+  header {
+      padding: 10px 20px;
+  }
+
+  nav {
+      flex-direction: column;
+      gap: 10px;
+  }
+
+  nav a {
+      font-size: 14px;
+  }
+}
+
+/* 🖥️ Hero Section */
+.hero {
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff; /* Matches navigation background */
+  padding: 80px 20px 20px; /* Offset padding to avoid overlap with fixed navbar */
+}
+
+.hero h1 {
+  font-size: 6vw;
+  font-weight: bold;
+  margin: 10px 0;
+  background: linear-gradient(to right, #6C63FF, #E942F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  font-size: 1.8vw;
+  margin-bottom: 30px;
+  max-width: 600px;
+  color: #555;
+}
+
+/* 📱 Responsive Hero Section */
+@media (max-width: 768px) {
+  .hero h1 {
+      font-size: 8vw;
+  }
+
+  .hero p {
+      font-size: 4vw;
+  }
+}
+
+/* 🚀 Buttons */
+.button {
+  display: inline-block;
+  padding: 14px 28px;
+  margin: 10px;
+  font-size: 1.2vw;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Primary Button */
+.button-primary {
+  background: linear-gradient(to right, #FF4D4D, #FF7878);
+  color: white;
+}
+
+/* Secondary Button */
+.button-secondary {
+  background: linear-gradient(to right, #6C63FF, #E942F5);
+  color: white;
+}
+
+/* 📚 Section Styling */
+.section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 20px;
+}
+
+.section h2 {
+  font-size: 4vw;
+  margin-bottom: 20px;
+  background: linear-gradient(to right, #6C63FF, #E942F5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section p {
+  font-size: 1.5vw;
+  max-width: 600px;
+  color: #666;
+}
+
+/* 📱 Responsive Section */
+@media (max-width: 768px) {
+  .section h2 {
+      font-size: 6vw;
+  }
+
+  .section p {
+      font-size: 4vw;
+  }
+}
+
+/* 🧵 Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+  background: #f3f4f6;
+}
+
+/* 📱 Responsive Footer */
+@media (max-width: 768px) {
+  footer {
+      font-size: 12px;
+  }
+}
