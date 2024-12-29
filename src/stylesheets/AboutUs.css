@@ -1,0 +1,29 @@
+/* src/stylesheets/TripPlanner.css */
+
+/* 🌍 Hero Section */
+.hero {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 80px 20px 20px;
+}
+
+.hero h1 {
+    font-size: 6vw;
+    font-weight: bold;
+    margin: 10px 0;
+    background: linear-gradient(to right, #6C63FF, #E942F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    font-size: 1.3vw;
+    margin-bottom: 30px;
+    max-width: 1500px;
+    color: #555;
+}

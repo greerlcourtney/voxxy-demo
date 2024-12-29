@@ -8,9 +8,9 @@ function Navbar() {
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/trip-planner">Trip Planner</Link>
-                <Link to="/about-us">About Us</Link>
-                <Link to="/login">Log In</Link>
-                <Link to="/sign-up">Sign Up</Link>
+                <Link to="/AboutUs">About Us</Link>
+                <Link to="/LogIn">Log In</Link>
+                <Link to="/SignUp">Sign Up</Link>
             </nav>
         </header>
     );
