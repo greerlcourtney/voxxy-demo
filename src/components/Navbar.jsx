@@ -1,19 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../stylesheet/Navbar.css';
+import '../stylesheets/Navbar.css';
 
-const Navbar = () => {
+function Navbar() {
     return (
-        <nav className="nav">
-            {/* <div className="nav-logo">
-                <Link to="/">Voxxy</Link>
-            </div> */}
+        <header>
+        <nav>
             <Link to="/">Home</Link>
             <Link to="/trip-planner">Trip Planner</Link>
             <Link to="/about-us">About Us</Link>
             <Link to="/login">Log In</Link>
             <Link to="/sign-up">Sign Up</Link>
         </nav>
+        </header>
     );
 };
 

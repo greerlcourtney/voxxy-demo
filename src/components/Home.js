@@ -1,20 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import '../stylesheets/Home.css'; // Ensure this path is correct
+import Navbar from '../components/Navbar';
+import '../stylesheets/Home.css'; 
 
 function Home() {
   return (
     <>
-      <div className="hero">
-        <header>
-          <nav>
-            <Link to="/">Home</Link>
-            <Link to="/trip-planner">Trip Planner</Link>
-            <Link to="/about-us">About Us</Link>
-            <Link to="/login">Log In</Link>
-            <Link to="/sign-up">Sign Up</Link>
-          </nav>
-        </header>
+        <Navbar />
+      <div className="home-hero">
         <h1>Plan your next adventure</h1>
         <p>Voxxy helps you and your crew decide where to go, where to stay, and what to do – without the chaos.</p>
         <div>
