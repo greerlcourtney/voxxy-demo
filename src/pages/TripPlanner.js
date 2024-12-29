@@ -20,37 +20,38 @@ function TripPlanner() {
 
     {/* Scrollable Trip Selection Area */}
       <div className="trip-selection">
-        <div className="trip-card" onClick={() => handleTripSelect('Mountain Adventure')}>
-          <img src="https://via.placeholder.com/300x200" alt="Mountain Adventure" />
+        <div className="trip-card" onClick={() => handleTripSelect('Choose a Destination')}>
+          <img src="/assets/choose-destination-icon.png" alt="Choose a Destination" />
           <h2>Choose a Destination</h2>
-        </div>
-
-        <div className="trip-card" onClick={() => handleTripSelect('Beach Escape')}>
-          <img src="https://via.placeholder.com/300x200" alt="Beach Escape" />
-          <h2>Ski Trip</h2>
-        </div>
-
-        <div className="trip-card" onClick={() => handleTripSelect('City Lights')}>
-          <img src="https://via.placeholder.com/300x200" alt="City Lights" />
-          <h2>Trip around Ireland</h2>
-        </div>
-        <div className="trip-card" onClick={() => handleTripSelect('Mountain Adventure')}>
-          <img src="https://via.placeholder.com/300x200" alt="Mountain Adventure" />
-          <h2>Plan a Road Trip</h2>
-        </div>
-
-        <div className="trip-card" onClick={() => handleTripSelect('Beach Escape')}>
-          <img src="https://via.placeholder.com/300x200" alt="Beach Escape" />
-          <h2>Spring Break!!</h2>
-        </div>
-
-        <div className="trip-card" onClick={() => handleTripSelect('City Lights')}>
-          <img src="https://via.placeholder.com/300x200" alt="City Lights" />
-          <h2>Request a Trip Type</h2>
-        </div>
       </div>
+
+      <div className="trip-card" onClick={() => handleTripSelect('Ski Trip')}>
+        <img src="/assets/ski-trip-icon.png" alt="Choose a Destination" />
+        <h2>Ski Trip</h2>
+      </div>
+
+      <div className="trip-card" onClick={() => handleTripSelect('Trip Around Ireland')}>
+        <img src="/assets/trip-around-ireland-icon.png" alt="Choose a Destination" />
+        <h2>Trip to Ireland</h2>
+      </div>
+
+      <div className="trip-card" onClick={() => handleTripSelect('Plan a Trip')}>
+        <img src="/assets/plan-a-road-trip-icon.png" alt="Choose a Destination" />
+        <h2>Plan a Road Trip</h2>
+      </div>
+
+      <div className="trip-card" onClick={() => handleTripSelect('Choose a Destination')}>
+        <img src="/assets/spring-break-icon.png" alt="Choose a Destination" />
+        <h2>Spring Break</h2>
+      </div>
+
+      <div className="trip-card" onClick={() => handleTripSelect('Recommend a Trip')}>
+        <img src="/assets/request-a-trip-icon.png" alt="Choose a Destination" />
+        <h2>Request a Trip</h2>
+      </div>
+    </div>
     </>
-    )
-};
+  );
+}
 
 export default TripPlanner;

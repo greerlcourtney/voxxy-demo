@@ -57,8 +57,9 @@
 
 .trip-card img {
     width: 100%;
-    height: 200px;
+    height: 275px;
     object-fit: cover;
+    margin-bottom: 10px;
 }
 
 .trip-card h2 {
