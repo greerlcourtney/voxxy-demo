@@ -1,0 +1,26 @@
+.trip-planner {
+    background-color: #f0f8ff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .trip-planner h1 {
+    color: #333;
+  }
+  
+  .trip-planner p {
+    color: #666;
+  }
+  
+  .trip-planner button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .trip-planner button:hover {
+    background-color: #218838;
+  }
