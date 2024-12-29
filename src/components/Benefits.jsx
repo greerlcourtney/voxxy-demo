@@ -14,10 +14,9 @@ function Benefits() {
     <section className="benefits-container">
       {/* First Column: Static Text */}
       <div className="benefits-text">
-        <h2>What is Voxxy?</h2>
+        <h1> Voxxy is your ultimate companion for planning adventures.</h1>
         <p>
-          Voxxy is your ultimate companion for planning seamless adventures. Whether you're exploring cities,
-          relaxing on beaches, or hiking mountains, Voxxy simplifies the decision-making process and makes travel effortless.
+          Whether you're exploring cities,relaxing on beaches, or hiking mountains, Voxxy simplifies the decision-making process and makes travel effortless.
         </p>
       </div>
 
@@ -28,15 +27,20 @@ function Benefits() {
             className="dropdown-header"
             onClick={() => toggleDropdown(1)}
           >
-            <h3>🌍 Explore the World</h3>
+            <h3>Group-Friendly Collaboration</h3>
             <span>{activeIndex === 1 ? '▲' : '▼'}</span>
           </div>
           {activeIndex === 1 && (
             <div className="dropdown-content">
               <p>
-                Discover curated travel plans tailored to your preferences. From iconic landmarks to hidden gems,
-                Voxxy brings the world to your fingertips.
+              Voxxy helps your group make decisions without the chaos. Whether you’re taking the quiz solo or sending surveys to friends, Voxxy ensures everyone has a voice – without the noise.
               </p>
+              <ul title='Key Highlights'>
+                <li>Collaborative decision-making made easy.</li>
+                <li>Group polls and real-time voting.</li>
+                <li>Seamless sharing and updates with everyone.</li>
+              </ul>
+              <button>Start Planning a </button>
             </div>
           )}
         </div>
@@ -46,7 +50,7 @@ function Benefits() {
             className="dropdown-header"
             onClick={() => toggleDropdown(2)}
           >
-            <h3>🧳 Seamless Planning</h3>
+            <h3>Smart AI Planning</h3>
             <span>{activeIndex === 2 ? '▲' : '▼'}</span>
           </div>
           {activeIndex === 2 && (
@@ -63,7 +67,7 @@ function Benefits() {
             className="dropdown-header"
             onClick={() => toggleDropdown(3)}
           >
-            <h3>📱 User-Friendly Interface</h3>
+            <h3>Personalized Recommendations</h3>
             <span>{activeIndex === 3 ? '▲' : '▼'}</span>
           </div>
           {activeIndex === 3 && (
