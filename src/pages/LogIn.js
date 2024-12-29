@@ -1,10 +1,10 @@
-// src/pages/Login.js
+// src/pages/LogIn.js
 
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../stylesheets/Auth.css';
 
-function Login() {
+function LogIn() {
   return (
     <div className="auth-container">
       <h1>Login</h1>
@@ -26,4 +26,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default LogIn;
