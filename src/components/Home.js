@@ -15,8 +15,8 @@ function Home() {
             <Link to="/sign-up">Sign Up</Link>
           </nav>
         </header>
-        <h1>Let Voxxy Plan Your Next Adventure</h1>
-        <p>Smart, seamless, and stress-free trip planning designed just for you and your crew</p>
+        <h1>Plan your next adventure</h1>
+        <p>Voxxy helps you and your crew decide where to go, where to stay, and what to do – without the chaos.</p>
         <div>
           <button className="button">Sign up to get started</button>
           <button className="button">Log in to continue</button>
